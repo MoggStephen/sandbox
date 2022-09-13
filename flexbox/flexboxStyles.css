@@ -1,0 +1,43 @@
+.noWrapContainer{
+    display: flex;
+    height: 500px;
+    width: 100%;
+    border: 1px solid black;
+}
+.noWrapItem{
+    margin: 10px;
+    height: 95%;
+    width: 40%;
+    border: 1px solid black;
+    
+    /* flexstuff */
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+/*COLUMN*/
+.columnContainer{
+    flex-direction: column;
+}
+.columnItem{
+    
+}
+
+/*ROW*/
+.rowContainer{   
+    flex-direction: row;     
+}
+.rowItem{
+    
+}
+.item{
+    background-color: darkgoldenrod;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+
+    /* flexbox stuff */
+    /* flex: 1; */
+    text-align: center;
+}

@@ -10,5 +10,30 @@
 </head>
 <body>
     <h1>Flexbox Sandbox</h1>
+    <h2>WITHOUT WRAP-enabled</h2>
+    
+    <div class="noWrapContainer">
+        <!--<h3>column:</h3>-->
+        <div class="noWrapItem columnContainer">
+            <div class="item columnItem">wow</div>
+            <div class="item columnItem">wow</div>
+            <div class="item columnItem">wow</div>
+            <div class="item columnItem">wow</div>
+            <div class="item columnItem">wow</div>
+            <div class="item columnItem">wow</div>
+        </div>
+        <!--<h3>row:</h3>-->
+        <div class="noWrapItem rowContainer">
+            <div class="item rowItem">wow</div>
+            <div class="item rowItem">wow</div>
+            <div class="item rowItem">wow</div>
+            <div class="item rowItem">wow</div>
+            <div class="item rowItem">wow</div>
+            <div class="item rowItem">wow</div>
+        </div>
+    </div>
+
+    <p>With large container -> applying justify-content center on container when flex-grow is 1 on items kinda does nothing as flex grow makes the items take up 
+        the space of the container.</p>
 </body>
 </html>

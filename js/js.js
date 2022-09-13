@@ -58,14 +58,14 @@ const regExpLetter = /[a-z]/;
 console.log("Returns -1 as not found -> .search(/[0-9]/) -> " + stringType.search(regExp));
 console.log("Returns index of first value found -> .search(/[a-z]/) -> " + stringType.search(regExpLetter));
 //SLICE
-console.log("SLICE");
+console.log("###SLICE");
 console.log(".slice(-2) -> " + stringType.slice(-2));
 console.log(".slice(2) -> " + stringType.slice(2));
 console.log(".slice(0,2) -> " + stringType.slice(0,2));
 console.log(".slice(0,-2) -> " + stringType.slice(0,-2));
 console.log(".slice(3,2) -> " + stringType.slice(3,2));
 //SUBSTRING
-console.log("SUBSTRING");
+console.log("###SUBSTRING");
 console.log(".substring(-2) -> " + stringType.substring(-2));
 console.log(".substring(2) -> " + stringType.substring(2));
 console.log(".substring(0,2) -> " + stringType.substring(0,2));
